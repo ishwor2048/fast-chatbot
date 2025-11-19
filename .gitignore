@@ -1,0 +1,8 @@
+# created by virtualenv automatically
+/bin
+/etc
+/lib
+/share
+.env
+CACHEDIR.TAG
+pyvenv.cfg
