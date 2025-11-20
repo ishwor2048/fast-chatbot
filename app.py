@@ -1,3 +1,17 @@
+# create project folder
+# open terminal
+# cd back to the root folder (cd .. enter)
+# check python version: python3 --version OR python --version enter)
+# create virtual environment (python -m virtualenv fast-chatbot and hit enter)
+# check and verify the instllation of virtual environment
+# change the working directory in terminal to be same as the project folder (cd fast-cahtbot and hit enter)
+# Activate the virtual environment (source bin/activate for mac, Scripts/activate for windows and hit enter)
+# confirm the acivation of virtual environment
+# install all ncesssary modules and libraries (pip install openai streamlit numpy pandas python-dotenv and hit enter)
+# on the left panel of your vs-code, click on new file, and type in ".env"
+# Open ".env" file, and store the secrets that is open ai api key (OPENAI_API_KEY = "Your API key"), then save the file and close it
+# create new file "app.py", and start writing the code below
+
 # import necessary libraries and modules
 import os
 from dotenv import load_dotenv
